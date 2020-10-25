@@ -1,0 +1,5 @@
+#estos permisos permiten hacer las acciones que se ejecutan en jupiter deben
+ser ingresados rirectamente a la base de datos por teminal.
+
+GRANT SELECT ON ALL TABLES IN SCHEMA s TO admin1; 
+GRANT ALL ON schema s TO admin1;
